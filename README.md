@@ -3,7 +3,7 @@ Report "ip addr" info to an API periodically
 
 ## How to use
 1. Change ip_reporter.py api.
-2. Fill in ip_reporter.service and put it in /etc/systemd/system.
+2. Fill in ip_reporter.service and put it in /etc/systemd/system
 ### Related command
 ```bash
 sudo systemctl daemon-reload
