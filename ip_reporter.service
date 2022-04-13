@@ -1,0 +1,9 @@
+[Unit]
+Description=report "ip addr" info to acer.plus periodically
+After=network.service
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 <absolute dirctory path>/ip_reporter.py
+[Install]
+WantedBy=multi-user.target
